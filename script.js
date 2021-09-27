@@ -24,5 +24,9 @@ async function get() {
   document.getElementById("Carrier").innerHTML = data.carrier;
   document.getElementById("Valid").innerHTML = data.valid;
   document.getElementById("table").style.display = "table";
-  console.log(data);
+  reset();
+}
+function reset(){
+  document.getElementById("code").value="";
+  document.getElementById("number").value="";
 }
