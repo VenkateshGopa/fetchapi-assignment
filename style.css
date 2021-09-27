@@ -1,0 +1,50 @@
+#code,
+#number {
+  border-radius: 50px;
+  border: none;
+}
+.heading {
+  font-size: 40px;
+}
+.row {
+  justify-content: center;
+  align-items: center;
+}
+#left {
+  padding-top: 155px;
+  padding-bottom: 170px;
+  align-items: center;
+}
+input[type="number"] {
+  width: 60%;
+  height: 2rem;
+  font-size: 22px;
+  padding-left: 15px;
+}
+input[type="submit"] {
+  width: 60%;
+}
+table {
+  display: none;
+}
+@media screen and (max-width: 700px) {
+  input[type="number"] {
+    width: 90%;
+    height: auto;
+    font-size: 15px;
+  }
+  input[type="submit"] {
+    width: 90%;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  #left {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+  }
+  #right {
+    margin-top: 30px;
+  }
+}
